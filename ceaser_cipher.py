@@ -31,10 +31,11 @@ class CeaserCipher:
 
 if __name__ == '__main__':
 	cipher = CeaserCipher()
-	message = 'hello'
+	message = 'The quick brown 🦊 jumps over the lazy 🐶.'
 	key = 3
 
 	encrypted = cipher.encrypt(message, key)
 	decrypted = cipher.decrypt(encrypted, key)
 
-	print(encrypted, decrypted)
+	print(encrypted)
+	print(decrypted)
