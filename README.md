@@ -7,7 +7,7 @@
 
 Collection of ciphers and ecryption/decryption methods written using the python language.
 
-### All the implemented ciphers are listed here
+### All the implemented ciphers in python are listed here
 
 * Ceaser Cipher
 * Binary Cipher
